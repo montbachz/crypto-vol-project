@@ -80,9 +80,4 @@ def collect_loop(interval_minutes: int = 60) -> None:
 
 
 if __name__ == "__main__":
-    # For now, collect one snapshot and stop.
-    for currency in ["BTC", "ETH"]:
-        collect_once(currency)
-
-    # Later, uncomment this to collect every hour:
-    # collect_loop(interval_minutes=60)
+    collect_loop(interval_minutes=60)
