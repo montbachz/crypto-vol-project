@@ -17,6 +17,7 @@ STEPS = [
     ("IV mean-reversion regression", "src/test_iv_mean_reversion.py"),
     ("Signal breakdown", "src/analyze_signal_breakdown.py"),
     ("Filtered residual strategy", "src/filtered_residual_strategy.py"),
+    ("Out-of-sample filtered strategy", "src/out_of_sample_filtered_strategy.py"),
     ("Lambda VaR risk summary", "src/lambda_var.py"),
     ("Final plots", "src/make_final_plots.py"),
 ]
