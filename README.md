@@ -125,3 +125,8 @@ Other useful extensions I would add:
 - Compare ConvVAE residuals against simpler parametric surface residuals.
 - Expand the sample across more market regimes.
 - Add trade sizing, vega limits, and margin-aware risk controls.
+
+## References
+
+- “Beyond the Smile: A Hybrid Convolutional VAE for Crypto Volatility Surfaces” — used as inspiration for masked ConvVAE volatility-surface reconstruction.
+- “Numerical Methods for Lambda Quantiles: Robust Evaluation and Portfolio Optimisation” — used as inspiration for the Lambda-VaR tail-risk layer.
